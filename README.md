@@ -21,7 +21,7 @@ This `main` branch includes:
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/your-username/node-lab.git
+   git clone https://github.com/chuksemmanuel/node-lab.git
    cd node-lab
    ```
 

@@ -10,7 +10,6 @@ out/
 logs/
 *.log
 
-
 # Environment files
 .env
 .env.*.local
@@ -22,3 +21,5 @@ Thumbs.db
 # IDE/editor config
 .vscode/
 
+# Prisma
+generated/prisma/

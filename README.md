@@ -37,7 +37,7 @@ This `main` branch includes:
    node index.js
    ```
 
-4. Open [http://localhost:3000](http://localhost:8080)
+4. Open [http://localhost:8080](http://localhost:8080)
 
 ---
 
@@ -52,7 +52,3 @@ Each experiment lives in a separate branch:
 > Run `git checkout <branch-name>` to switch to a specific lab.
 
 ---
-
-## 📄 License
-
-MIT

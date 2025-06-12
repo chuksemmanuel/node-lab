@@ -1,6 +1,6 @@
 ## About lab:
 
-This lab is a backend course based on Smoljames youtube video title:
+This lab is a backend course based on Smoljames youtube video:
 
 [Backend Full Course | Nodejs Express PostgresSQL Prisma & Docker](https://www.youtube.com/watch?v=9BD9eK9VqXA)
 

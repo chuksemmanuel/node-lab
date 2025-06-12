@@ -5,14 +5,25 @@ node_modules/
 dist/
 build/
 out/
+.next/
+.vercel/
+.serverless/
+.coverage/
 
 # Logs
 logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 # Environment files
 .env
 .env.*.local
+.env.local
+.env.test
+.env.production
 
 # System files
 .DS_Store
@@ -20,6 +31,58 @@ Thumbs.db
 
 # IDE/editor config
 .vscode/
+.idea/
+*.sw?
 
 # Prisma
-generated/prisma/
+generated/
+prisma/
+prisma/migrations/
+prisma/generated/
+prisma/.env
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Testing
+jest.config.js
+jest.config.ts
+*.spec.ts
+*.test.ts
+test-results/
+
+# Debug
+*.tgz
+*.log.*
+
+# OS-specific
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Package Managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Others (optional, comment out if needed)
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Local runtime
+tmp/
+temp/
+.cache/
+.cache-loader/
+
+# Storybook
+.storybook-out/
+
+# Docker
+docker-compose.override.yml
+

@@ -1,0 +1,17 @@
+### Homepage
+GET http://localhost:8383
+
+### DATA ENDPOINT
+GET http://localhost:8383/api/data
+
+### Data endpoint for adding a user
+POST http://localhost:8383/api/data 
+Content-Type: application/json
+
+{
+    "name":"Jack robbinson",
+    "age":24
+}
+
+### Delete a user
+DELETE  http://localhost:8383/api/data/1

@@ -1,7 +1,6 @@
-import express from 'express'
 import bcrypt from 'bcryptjs'
+import express from 'express'
 import jwt from 'jsonwebtoken'
-import db from '../db.js'
 import primsa from '../prismaClient.js'
 
 const router = express.Router()
@@ -10,6 +9,10 @@ const router = express.Router()
 router.post('/register', async (req, res) => {
     const { username, password } = req.body;
     console.log(username, password)
+
+
+
+
 
     // encrypt password
     const hashedPassword = bcrypt.hashSync(password)

@@ -1,5 +1,4 @@
 import express from 'express'
-import db from '../db.js'
 import prisma from '../prismaClient.js'
 
 const router = express.Router()
@@ -24,7 +23,7 @@ router.post('/', async (req, res) => {
             userId: req.userId
         }
     })
-    res.status(201).json({ todo })
+    res.status(201).json({ newTodo })
 })
 
 router.put('/:id', async (req, res) => {

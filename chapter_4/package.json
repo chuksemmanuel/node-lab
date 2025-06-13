@@ -1,5 +1,5 @@
 {
-	"name": "chapter_4",
+	"name": "todoapp",
 	"version": "1.0.0",
 	"description": "A dockerized full stack todo application that uses a node backend, a PostgreSQL database, a Prisma ORM, and jwt authentication",
 	"main": "index.js",
